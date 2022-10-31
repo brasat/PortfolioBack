@@ -73,6 +73,7 @@ import java.util.ArrayList;
 		}
 		
                ArrayList<String> aptitudes  = new ArrayList<String>();
+               aptitudes.add(" ");
                 
 		Persona usuario = new Persona();
 		usuario.setNombre(registroDTO.getNombre());
