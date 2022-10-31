@@ -26,7 +26,7 @@ public class SpringboottApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedOrigins("http://localhost:4200/").allowedMethods("*").allowedHeaders("*");
+				registry.addMapping("/**").allowedOrigins("https://app-portfolio-8bd8b.web.app/").allowedMethods("*").allowedHeaders("*");
 			}
 		};
 	}
