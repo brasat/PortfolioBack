@@ -12,6 +12,7 @@ import com.example.Springboott.jwt.RegistRequest;
     import com.example.Springboott.jwt.RegistroDTO;
 import com.example.Springboott.model.Persona;
 import com.example.Springboott.repository.PersonaRepository;
+import java.util.ArrayList;
     import org.springframework.web.bind.annotation.RequestMapping;
     import org.springframework.beans.factory.annotation.Autowired;
     import org.springframework.http.HttpStatus;
@@ -71,13 +72,17 @@ import com.example.Springboott.repository.PersonaRepository;
 			return new ResponseEntity<>("Ese email de usuario ya existe",HttpStatus.BAD_REQUEST);
 		}
 		
+               ArrayList<String> aptitudes  = new ArrayList<String>();
+                
 		Persona usuario = new Persona();
 		usuario.setNombre(registroDTO.getNombre());
                 usuario.setApellido(registroDTO.getApellido());
 		usuario.setUsername(registroDTO.getUsername());
 		usuario.setEmail(registroDTO.getEmail());
 		usuario.setPassword(passwordEncoder.encode(registroDTO.getPassword()));
-		
+		usuario.setAbout("Ingrese descripción");
+                usuario.setAptitudes(aptitudes);
+                
 		
 		usuarioRepositorio.save(usuario);
                 
