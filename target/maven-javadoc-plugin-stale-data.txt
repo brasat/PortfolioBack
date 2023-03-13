@@ -1,0 +1,183 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/Bruno/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.7.4/spring-boot-starter-data-jpa-2.7.4.jar;C:/Users/Bruno/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.7.4/spring-boot-starter-aop-2.7.4.jar;C:/Users/Bruno/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar;C:/Users/Bruno/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.7.4/spring-boot-starter-jdbc-2.7.4.jar;C:/Users/Bruno/.m2/repository/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar;C:/Users/Bruno/.m2/repository/org/springframework/spring-jdbc/5.3.23/spring-jdbc-5.3.23.jar;C:/Users/Bruno/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar;C:/Users/Bruno/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar;C:/Users/Bruno/.m2/repository/org/hibernate/hibernate-core/5.6.11.Final/hibernate-core-5.6.11.Final.jar;C:/Users/Bruno/.m2/repository/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar;C:/Users/Bruno/.m2/repository/net/bytebuddy/byte-buddy/1.12.17/byte-buddy-1.12.17.jar;C:/Users/Bruno/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar;C:/Users/Bruno/.m2/repository/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.jar;C:/Users/Bruno/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar;C:/Users/Bruno/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar;C:/Users/Bruno/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.6/jaxb-runtime-2.3.6.jar;C:/Users/Bruno/.m2/repository/org/glassfish/jaxb/txw2/2.3.6/txw2-2.3.6.jar;C:/Users/Bruno/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.jar;C:/Users/Bruno/.m2/repository/org/springframework/data/spring-data-jpa/2.7.3/spring-data-jpa-2.7.3.jar;C:/Users/Bruno/.m2/repository/org/springframework/data/spring-data-commons/2.7.3/spring-data-commons-2.7.3.jar;C:/Users/Bruno/.m2/repository/org/springframework/spring-orm/5.3.23/spring-orm-5.3.23.jar;C:/Users/Bruno/.m2/repository/org/springframework/spring-context/5.3.23/spring-context-5.3.23.jar;C:/Users/Bruno/.m2/repository/org/springframework/spring-tx/5.3.23/spring-tx-5.3.23.jar;C:/Users/Bruno/.m2/repository/org/springframework/spring-beans/5.3.23/spring-beans-5.3.23.jar;C:/Users/Bruno/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar;C:/Users/Bruno/.m2/repository/org/springframework/spring-aspects/5.3.23/spring-aspects-5.3.23.jar;C:/Users/Bruno/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.7.4/spring-boot-starter-web-2.7.4.jar;C:/Users/Bruno/.m2/repository/org/springframework/boot/spring-boot-starter/2.7.4/spring-boot-starter-2.7.4.jar;C:/Users/Bruno/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.7.4/spring-boot-starter-logging-2.7.4.jar;C:/Users/Bruno/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar;C:/Users/Bruno/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar;C:/Users/Bruno/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/log4j-to-slf4j-2.17.2.jar;C:/Users/Bruno/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar;C:/Users/Bruno/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar;C:/Users/Bruno/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar;C:/Users/Bruno/.m2/repository/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar;C:/Users/Bruno/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.7.4/spring-boot-starter-json-2.7.4.jar;C:/Users/Bruno/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.4/jackson-datatype-jdk8-2.13.4.jar;C:/Users/Bruno/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.4/jackson-datatype-jsr310-2.13.4.jar;C:/Users/Bruno/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.4/jackson-module-parameter-names-2.13.4.jar;C:/Users/Bruno/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.7.4/spring-boot-starter-tomcat-2.7.4.jar;C:/Users/Bruno/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.65/tomcat-embed-core-9.0.65.jar;C:/Users/Bruno/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.65/tomcat-embed-el-9.0.65.jar;C:/Users/Bruno/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.65/tomcat-embed-websocket-9.0.65.jar;C:/Users/Bruno/.m2/repository/org/springframework/spring-web/5.3.23/spring-web-5.3.23.jar;C:/Users/Bruno/.m2/repository/org/springframework/spring-webmvc/5.3.23/spring-webmvc-5.3.23.jar;C:/Users/Bruno/.m2/repository/org/springframework/spring-expression/5.3.23/spring-expression-5.3.23.jar;C:/Users/Bruno/.m2/repository/org/springframework/boot/spring-boot/2.7.4/spring-boot-2.7.4.jar;C:/Users/Bruno/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.4/spring-boot-autoconfigure-2.7.4.jar;C:/Users/Bruno/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar;C:/Users/Bruno/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar;C:/Users/Bruno/.m2/repository/org/springframework/spring-core/5.3.23/spring-core-5.3.23.jar;C:/Users/Bruno/.m2/repository/org/springframework/spring-jcl/5.3.23/spring-jcl-5.3.23.jar;C:/Users/Bruno/.m2/repository/org/springframework/boot/spring-boot-starter-security/2.7.4/spring-boot-starter-security-2.7.4.jar;C:/Users/Bruno/.m2/repository/org/springframework/spring-aop/5.3.23/spring-aop-5.3.23.jar;C:/Users/Bruno/.m2/repository/org/springframework/security/spring-security-config/5.7.3/spring-security-config-5.7.3.jar;C:/Users/Bruno/.m2/repository/org/springframework/security/spring-security-core/5.7.3/spring-security-core-5.7.3.jar;C:/Users/Bruno/.m2/repository/org/springframework/security/spring-security-crypto/5.7.3/spring-security-crypto-5.7.3.jar;C:/Users/Bruno/.m2/repository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3.jar;C:/Users/Bruno/.m2/repository/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar;C:/Users/Bruno/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.4/jackson-databind-2.13.4.jar;C:/Users/Bruno/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar;C:/Users/Bruno/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar;C:/Users/Bruno/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar;C:/Users/Bruno/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar;C:/Users/Bruno/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar;C:/Users/Bruno/.m2/repository/com/squareup/retrofit2/converter-gson/2.0.0-beta3/converter-gson-2.0.0-beta3.jar;C:/Users/Bruno/.m2/repository/com/squareup/retrofit2/retrofit/2.0.0-beta3/retrofit-2.0.0-beta3.jar;C:/Users/Bruno/.m2/repository/com/squareup/okhttp3/okhttp/4.9.3/okhttp-4.9.3.jar;C:/Users/Bruno/.m2/repository/com/squareup/okio/okio/2.8.0/okio-2.8.0.jar;C:/Users/Bruno/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.21/kotlin-stdlib-common-1.6.21.jar;C:/Users/Bruno/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.6.21/kotlin-stdlib-1.6.21.jar;C:/Users/Bruno/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar;C:/Users/Bruno/.m2/repository/org/json/json/20140107/json-20140107.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Springboott 0.0.1-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'Springboott 0.0.1-SNAPSHOT API'
+com.example.Springboott.Controller
+com.example.Springboott.jwt
+com.example.Springboott.model
+com.example.Springboott.repository
+com.example.Springboott.security
+com.example.Springboott.service
+com.example.Springboott.service.utilities
+com.example.Springboott
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/Controller/AptitudeController.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/Controller/ArchivementController.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/Controller/AuthController.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/Controller/CompanyController.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/Controller/Controller.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/Controller/EducationController.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/Controller/ExperienceController.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/Controller/InteresController.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/Controller/SchoolController.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/jwt/CustomUserDetailsService.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/jwt/JwtAuthenticationEntryPoint.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/jwt/JWTAuthenticationFilter.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/jwt/JwtAuthResponseDTO.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/jwt/JwtTokerProvider.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/jwt/LoginDTO.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/jwt/RegistRequest.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/jwt/RegistroDTO.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/model/Aptitude.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/model/Archivement.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/model/Company.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/model/ConfirmsName.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/model/Contacto.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/model/Education.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/model/Experience.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/model/Interes.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/model/Persona.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/model/School.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/repository/AptitudeRepository.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/repository/ArchiveRepository.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/repository/CompanyRepository.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/repository/EducationRepository.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/repository/ExperienceRepository.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/repository/InteresRepo.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/repository/PersonaRepository.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/repository/SchoolRepo.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/security/WebSecurityConfig.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/service/AptitudeService.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/service/ArchivementService.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/service/CompanyService.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/service/EducationService.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/service/ExperienceService.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/service/IAptitudeService.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/service/IArchivementService.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/service/ICompanyService.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/service/IEducationService.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/service/IExperienceService.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/service/IInteresService.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/service/InteresService.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/service/IPersonaService.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/service/ISchoolService.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/service/PersonaService.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/service/SchoolService.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/service/utilities/PasswordEconderGenerator.java'
+'C:/Users/Bruno/Desktop/Desk/arg programa images/Springboott/src/main/java/com/example/Springboott/SpringboottApplication.java'
+C:\Users\Bruno\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.7.4\spring-boot-starter-data-jpa-2.7.4.jar = 1666662932553
+C:\Users\Bruno\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.7.4\spring-boot-starter-aop-2.7.4.jar = 1666662932208
+C:\Users\Bruno\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar = 1661103180196
+C:\Users\Bruno\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.7.4\spring-boot-starter-jdbc-2.7.4.jar = 1666662932555
+C:\Users\Bruno\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar = 1661103179384
+C:\Users\Bruno\.m2\repository\org\springframework\spring-jdbc\5.3.23\spring-jdbc-5.3.23.jar = 1666654778649
+C:\Users\Bruno\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar = 1661103179019
+C:\Users\Bruno\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar = 1661103179606
+C:\Users\Bruno\.m2\repository\org\hibernate\hibernate-core\5.6.11.Final\hibernate-core-5.6.11.Final.jar = 1666662934264
+C:\Users\Bruno\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar = 1661103179732
+C:\Users\Bruno\.m2\repository\net\bytebuddy\byte-buddy\1.12.17\byte-buddy-1.12.17.jar = 1666662934070
+C:\Users\Bruno\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar = 1661103180041
+C:\Users\Bruno\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar = 1661103180177
+C:\Users\Bruno\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar = 1661103180158
+C:\Users\Bruno\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar = 1661103180434
+C:\Users\Bruno\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.6\jaxb-runtime-2.3.6.jar = 1661103181201
+C:\Users\Bruno\.m2\repository\org\glassfish\jaxb\txw2\2.3.6\txw2-2.3.6.jar = 1661103180566
+C:\Users\Bruno\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.12\istack-commons-runtime-3.0.12.jar = 1661103180584
+C:\Users\Bruno\.m2\repository\org\springframework\data\spring-data-jpa\2.7.3\spring-data-jpa-2.7.3.jar = 1666654778404
+C:\Users\Bruno\.m2\repository\org\springframework\data\spring-data-commons\2.7.3\spring-data-commons-2.7.3.jar = 1666654778538
+C:\Users\Bruno\.m2\repository\org\springframework\spring-orm\5.3.23\spring-orm-5.3.23.jar = 1666654778591
+C:\Users\Bruno\.m2\repository\org\springframework\spring-context\5.3.23\spring-context-5.3.23.jar = 1666654777519
+C:\Users\Bruno\.m2\repository\org\springframework\spring-tx\5.3.23\spring-tx-5.3.23.jar = 1666654778789
+C:\Users\Bruno\.m2\repository\org\springframework\spring-beans\5.3.23\spring-beans-5.3.23.jar = 1666654777446
+C:\Users\Bruno\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar = 1660707498177
+C:\Users\Bruno\.m2\repository\org\springframework\spring-aspects\5.3.23\spring-aspects-5.3.23.jar = 1666662932593
+C:\Users\Bruno\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.7.4\spring-boot-starter-web-2.7.4.jar = 1666662932893
+C:\Users\Bruno\.m2\repository\org\springframework\boot\spring-boot-starter\2.7.4\spring-boot-starter-2.7.4.jar = 1666662932894
+C:\Users\Bruno\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.7.4\spring-boot-starter-logging-2.7.4.jar = 1666662932953
+C:\Users\Bruno\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar = 1660707494748
+C:\Users\Bruno\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar = 1660707494232
+C:\Users\Bruno\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.2\log4j-to-slf4j-2.17.2.jar = 1660707494632
+C:\Users\Bruno\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar = 1660707495083
+C:\Users\Bruno\.m2\repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar = 1660707494672
+C:\Users\Bruno\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar = 1660707494738
+C:\Users\Bruno\.m2\repository\org\yaml\snakeyaml\1.30\snakeyaml-1.30.jar = 1660707495078
+C:\Users\Bruno\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.7.4\spring-boot-starter-json-2.7.4.jar = 1666662933241
+C:\Users\Bruno\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.13.4\jackson-datatype-jdk8-2.13.4.jar = 1666662933310
+C:\Users\Bruno\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.4\jackson-datatype-jsr310-2.13.4.jar = 1666662933482
+C:\Users\Bruno\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.13.4\jackson-module-parameter-names-2.13.4.jar = 1666662933603
+C:\Users\Bruno\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.7.4\spring-boot-starter-tomcat-2.7.4.jar = 1666662933666
+C:\Users\Bruno\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.65\tomcat-embed-core-9.0.65.jar = 1660707496645
+C:\Users\Bruno\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.65\tomcat-embed-el-9.0.65.jar = 1660707495870
+C:\Users\Bruno\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.65\tomcat-embed-websocket-9.0.65.jar = 1660707496304
+C:\Users\Bruno\.m2\repository\org\springframework\spring-web\5.3.23\spring-web-5.3.23.jar = 1666654778003
+C:\Users\Bruno\.m2\repository\org\springframework\spring-webmvc\5.3.23\spring-webmvc-5.3.23.jar = 1666654777433
+C:\Users\Bruno\.m2\repository\org\springframework\spring-expression\5.3.23\spring-expression-5.3.23.jar = 1666654777833
+C:\Users\Bruno\.m2\repository\org\springframework\boot\spring-boot\2.7.4\spring-boot-2.7.4.jar = 1666654779047
+C:\Users\Bruno\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.7.4\spring-boot-autoconfigure-2.7.4.jar = 1666654779163
+C:\Users\Bruno\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar = 1660707498182
+C:\Users\Bruno\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar = 1660707498223
+C:\Users\Bruno\.m2\repository\org\springframework\spring-core\5.3.23\spring-core-5.3.23.jar = 1666654777539
+C:\Users\Bruno\.m2\repository\org\springframework\spring-jcl\5.3.23\spring-jcl-5.3.23.jar = 1666654777818
+C:\Users\Bruno\.m2\repository\org\springframework\boot\spring-boot-starter-security\2.7.4\spring-boot-starter-security-2.7.4.jar = 1666662934514
+C:\Users\Bruno\.m2\repository\org\springframework\spring-aop\5.3.23\spring-aop-5.3.23.jar = 1666654777308
+C:\Users\Bruno\.m2\repository\org\springframework\security\spring-security-config\5.7.3\spring-security-config-5.7.3.jar = 1664334483150
+C:\Users\Bruno\.m2\repository\org\springframework\security\spring-security-core\5.7.3\spring-security-core-5.7.3.jar = 1664334482835
+C:\Users\Bruno\.m2\repository\org\springframework\security\spring-security-crypto\5.7.3\spring-security-crypto-5.7.3.jar = 1664334482860
+C:\Users\Bruno\.m2\repository\org\springframework\security\spring-security-web\5.7.3\spring-security-web-5.7.3.jar = 1664334482994
+C:\Users\Bruno\.m2\repository\io\jsonwebtoken\jjwt\0.9.1\jjwt-0.9.1.jar = 1663510578983
+C:\Users\Bruno\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4\jackson-databind-2.13.4.jar = 1666654778110
+C:\Users\Bruno\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar = 1666654778115
+C:\Users\Bruno\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar = 1666654778314
+C:\Users\Bruno\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar = 1663509553384
+C:\Users\Bruno\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar = 1663509553280
+C:\Users\Bruno\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar = 1667149295691
+C:\Users\Bruno\.m2\repository\com\squareup\retrofit2\converter-gson\2.0.0-beta3\converter-gson-2.0.0-beta3.jar = 1667149295757
+C:\Users\Bruno\.m2\repository\com\squareup\retrofit2\retrofit\2.0.0-beta3\retrofit-2.0.0-beta3.jar = 1667149658828
+C:\Users\Bruno\.m2\repository\com\squareup\okhttp3\okhttp\4.9.3\okhttp-4.9.3.jar = 1667149659710
+C:\Users\Bruno\.m2\repository\com\squareup\okio\okio\2.8.0\okio-2.8.0.jar = 1667149659358
+C:\Users\Bruno\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.6.21\kotlin-stdlib-common-1.6.21.jar = 1667149659296
+C:\Users\Bruno\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.6.21\kotlin-stdlib-1.6.21.jar = 1667149659924
+C:\Users\Bruno\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar = 1667149659214
+C:\Users\Bruno\.m2\repository\org\json\json\20140107\json-20140107.jar = 1663528138674
+C:\Users\Bruno\Desktop\Desk\arg programa images\Springboott\src\main\java = 1667244942532
+C:\Users\Bruno\Desktop\Desk\arg programa images\Springboott\target\site\apidocs\allclasses-index.html = 1678737171739
+C:\Users\Bruno\Desktop\Desk\arg programa images\Springboott\target\site\apidocs\allpackages-index.html = 1678737171742
+C:\Users\Bruno\Desktop\Desk\arg programa images\Springboott\target\site\apidocs\copy.svg = 1678737171792
+C:\Users\Bruno\Desktop\Desk\arg programa images\Springboott\target\site\apidocs\element-list = 1678737171298
+C:\Users\Bruno\Desktop\Desk\arg programa images\Springboott\target\site\apidocs\help-doc.html = 1678737171786
+C:\Users\Bruno\Desktop\Desk\arg programa images\Springboott\target\site\apidocs\index-all.html = 1678737171781
+C:\Users\Bruno\Desktop\Desk\arg programa images\Springboott\target\site\apidocs\index.html = 1678737171712
+C:\Users\Bruno\Desktop\Desk\arg programa images\Springboott\target\site\apidocs\jquery-ui.overrides.css = 1678737171826
+C:\Users\Bruno\Desktop\Desk\arg programa images\Springboott\target\site\apidocs\member-search-index.js = 1678737171748
+C:\Users\Bruno\Desktop\Desk\arg programa images\Springboott\target\site\apidocs\module-search-index.js = 1678737171743
+C:\Users\Bruno\Desktop\Desk\arg programa images\Springboott\target\site\apidocs\overview-summary.html = 1678737171782
+C:\Users\Bruno\Desktop\Desk\arg programa images\Springboott\target\site\apidocs\overview-tree.html = 1678737171708
+C:\Users\Bruno\Desktop\Desk\arg programa images\Springboott\target\site\apidocs\package-search-index.js = 1678737171745
+C:\Users\Bruno\Desktop\Desk\arg programa images\Springboott\target\site\apidocs\script.js = 1678737171790
+C:\Users\Bruno\Desktop\Desk\arg programa images\Springboott\target\site\apidocs\search.js = 1678737171795
+C:\Users\Bruno\Desktop\Desk\arg programa images\Springboott\target\site\apidocs\serialized-form.html = 1678737171410
+C:\Users\Bruno\Desktop\Desk\arg programa images\Springboott\target\site\apidocs\stylesheet.css = 1678737171789
+C:\Users\Bruno\Desktop\Desk\arg programa images\Springboott\target\site\apidocs\tag-search-index.js = 1678737171749
+C:\Users\Bruno\Desktop\Desk\arg programa images\Springboott\target\site\apidocs\type-search-index.js = 1678737171746

@@ -1,0 +1,8 @@
+com.example.Springboott
+com.example.Springboott.Controller
+com.example.Springboott.jwt
+com.example.Springboott.model
+com.example.Springboott.repository
+com.example.Springboott.security
+com.example.Springboott.service
+com.example.Springboott.service.utilities
